@@ -56,7 +56,7 @@ You can also add colors in a similar way
 </dl>
 
 <dl>
-	<dt>Get all colors - toolkit.colorBuddy.size();</dt>
+	<dt>Get size of color list - toolkit.colorBuddy.size();</dt>
 	<dd> Returns an integer value of the number of colors</dd>
 </dl>
 
