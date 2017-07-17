@@ -3,7 +3,7 @@ An Android Library that provides a toolkit that simplifies some tasks related to
 
 Welcome to my first Android Library which combines several useful utility classes to make coding easier. You can be sure that more useful features will be added over time.
 
-##Getting started (:
+## Getting started (:
 
   Add the library to your project first then
   In your fragment, create an instance of Toolkit. e.g Toolkit toolkit = new Toolkit(getContext());
@@ -26,7 +26,7 @@ After you created an instance of the toolkit class, you can use two of its built
 
 
 
-##Available tools
+## Available tools
 In this release, there are 4 kits that can take advantage of:
 
 ### 1. ColorBuddy
@@ -85,7 +85,7 @@ You can also use standalone e.g StringBuddy stringBuddy = new StringBuddy() with
 </dl>
 
 
-### SettingsBuddy
+### 3. SettingsBuddy
 SettingsBuddy makes working with shared preferences easier. If you are using it stand alone,
 create like so: SettingsBuddy settingsBuddy = SettingsBuddy.getInstance(context);
 If you created a toolkit instance then you can just use its functions like toolkit.settingsBuddy.functionName() without having to create the
@@ -107,7 +107,7 @@ stand alone instance. The name of the shared preference is 'AppSettings' and the
    <dd>toolkit.settingsBuddy.setDefault(aStringValue) to set the default value </dd>
 </dl>
 
-###ZipBuddy
+### 4. ZipBuddy
 ZipBuddy makes working with Zip files easier. It provides 2 functions:
 Zip and Unzip. You can also use standalone e.g ZipBuddy zipBuddy = new ZipBuddy() without first creating a Toolkit object.
 
