@@ -23,7 +23,8 @@ public class SettingsBuddy
 
     private final String TAG = SettingsBuddy.class.getSimpleName();
 
-    public static SettingsBuddy getInstance(Context context)
+    public static SettingsBuddy getInstance(Context context
+    )
     {
         if (settingsBuddy == null)
         {
@@ -57,6 +58,13 @@ public class SettingsBuddy
         }
 
         return DEFAULT;
+    }
+
+    public void removeData(String key)
+    {
+        SharedPreferences.Editor prefsEditor = settings.edit();
+        prefsEditor.remove(key);
+        prefsEditor.apply();
     }
 
 
