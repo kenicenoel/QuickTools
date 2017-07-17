@@ -7,8 +7,8 @@ Welcome to my first Android Library which combines several useful utility classe
 
 #### Add the library to your project first
 
-```compile 'com.github.kenicenoel:QuickTools:v1.0'```
-#### Afterwards,
+`compile 'com.github.kenicenoel:QuickTools:v1.1'`
+#### Afterwards
 In your fragment, create an instance of Toolkit. e.g `Toolkit toolkit = new Toolkit(getContext());`
 Or, in your activity, create an instance of Toolkit. e.g `Toolkit toolkit = new Toolkit(this);`
 
