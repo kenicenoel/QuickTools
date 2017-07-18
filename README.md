@@ -6,8 +6,22 @@ Welcome to my first Android Library which combines several useful utility classe
 ## Getting started (:
 
 #### Add the library to your project first
+##### Step 1. Add the JitPack repository to your build file if it isn't already there
+  ```allprojects 
+  {
+     repositories 
+     {
+      ...
+      maven { url 'https://jitpack.io' }
+     }
+  }
+  ```
+ Add it in your root build.gradle at the end of repositories
+    
+##### Step 2.  Add the dependency
 
 `compile 'com.github.kenicenoel:QuickTools:v1.1'`
+
 #### Afterwards
 In your fragment, create an instance of Toolkit. e.g `Toolkit toolkit = new Toolkit(getContext());`
 Or, in your activity, create an instance of Toolkit. e.g `Toolkit toolkit = new Toolkit(this);`
