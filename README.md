@@ -1,5 +1,6 @@
 # QuickTools 
-[![Release](https://jitpack.io/v/kenicenoel/QuickTools.svg)]
+[![Release](https://jitpack.io/v/com.kenicenoel/QuickTools.svg)](https://jitpack.io/#com.kenicenoel/Quicktools)
+
 
 An Android Library that provides a toolkit that simplifies some tasks related to Strings, Colors and other functions.
 
@@ -22,7 +23,7 @@ Welcome to my first Android Library which combines several useful utility classe
     
 ##### Step 2.  Add the dependency
 
-`compile 'com.github.kenicenoel:QuickTools:v1.1'`
+`compile 'com.kenicenoel:QuickTools:v1.2'`
 
 #### Afterwards
 In your fragment, create an instance of Toolkit. e.g `Toolkit toolkit = new Toolkit(getContext());`
@@ -120,6 +121,10 @@ This saves the key/value pair in the  shared preference
 #### Get data
  `toolkit.settingsBuddy.getData(key);`
 This returns the value for the supplied key if it exists or the default value if non-existant.
+
+#### Remove data
+ `toolkit.settingsBuddy.remove(key);`
+This removes the value for the supplied key if it exists.
 
  #### Default value
  By default the default value is "N/A" but you can change this:
