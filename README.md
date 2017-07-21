@@ -1,4 +1,6 @@
-# QuickTools
+# QuickTools 
+[![Release](https://jitpack.io/v/kenicenoel/QuickTools.svg)]
+
 An Android Library that provides a toolkit that simplifies some tasks related to Strings, Colors and other functions.
 
 Welcome to my first Android Library which combines several useful utility classes to make coding easier. You can be sure that more useful features will be added over time.
